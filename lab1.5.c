@@ -10,10 +10,10 @@ int main() {
     }
 
     while (number != 0) {
-        if (number % 2 == 0) {
-            evenSum += number;   //คู่
-        } else {
-            oddSum += number;    // คี่
+        if (number %2 != 0 ){
+            oddSum += number;
+        }else{
+            evenSum += number;
         }
 
         if (scanf("%d", &number) != 1) {
